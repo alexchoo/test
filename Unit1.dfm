@@ -13,37 +13,36 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object pnl1: TPanel
+  object panButtons: TPanel
     Left = 0
     Top = 400
     Width = 801
     Height = 41
     Align = alBottom
-    Caption = 'pnl1'
+    Caption = 'panButtons'
+    ShowCaption = False
     TabOrder = 0
-    ExplicitLeft = 544
-    ExplicitTop = 144
-    ExplicitWidth = 185
     DesignSize = (
       801
       41)
-    object btn1: TButton
+    object btnOk: TButton
       Left = 680
       Top = 8
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
-      Caption = 'btn1'
+      Caption = #1054#1082
       TabOrder = 0
     end
   end
-  object pnl2: TPanel
+  object panHeader: TPanel
     Left = 0
     Top = 0
     Width = 801
     Height = 49
     Align = alTop
-    Caption = 'pnl2'
+    Caption = 'panHeader'
+    ShowCaption = False
     TabOrder = 1
   end
 end

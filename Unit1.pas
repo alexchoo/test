@@ -8,9 +8,9 @@ uses
 
 type
   TForm1 = class(TForm)
-    pnl1: TPanel;
-    pnl2: TPanel;
-    btn1: TButton;
+    panButtons: TPanel;
+    panHeader: TPanel;
+    btnOk: TButton;
   private
     { Private declarations }
   public
